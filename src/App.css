@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.grid-vertical {
+  display: grid;
+  grid-template-rows: repeat(1, 2fr);
+}
+
+.grid-horizontal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 64px;
+}
+
+#red-rose {
+  width: 64px;
+  height: 64px;
+  background: url("./assets/ptc-removebg.png") -3px -12px;
+}
+
+#yellow-rose {
+  width: 64px;
+  height: 64px;
+  background: url("./assets/ptc-removebg.png") -75px -12px;
+}
+
+#purple-rose {
+  width: 64px;
+  height: 64px;
+  background: url("./assets/ptc-removebg.png") -147px -12px;
+}
+
+#pink-rose {
+  width: 64px;
+  height: 64px;
+  background: url("./assets/ptc-removebg.png") -212px -12px;
+}
+
+#club {
+  width: 64px;
+  height: 64px;
+  background: url("./assets/ptc-removebg.png") -212px -78px;
+}
+
+#diamond {
+  width: 64px;
+  height: 64px;
+  background: url("./assets/ptc-removebg.png") -147px -78px;
+}
+
+#heart {
+  width: 64px;
+  height: 64px;
+  background: url("./assets/ptc-removebg.png") -75px -78px;
+}
+
+#spade {
+  width: 64px;
+  height: 64px;
+  background: url("./assets/ptc-removebg.png") -3px -78px;
+}
